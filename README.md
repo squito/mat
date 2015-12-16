@@ -8,6 +8,21 @@ MAT is a tool to *programmatically* work with java heap dumps.  While there are 
 heap dumps, most of them do not have an API to pull out and work with the objects in the heap direclty.
 MAT lets you do that.  See the extended example below.
 
+Build Instructions
+------------
+
+`mvn clean install`
+
+that will publish to your local maven repo, which then you can include in another project using:
+
+```
+    <dependency>
+      <groupId>mat</groupId>
+      <artifactId>mat-core</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
+```
+
 Brief History
 --------------
 
